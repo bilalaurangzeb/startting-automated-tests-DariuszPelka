@@ -1,7 +1,7 @@
 #!groovy
 
 pipeline {
-    agent { AutomatitTestHostForComputronProjectDariusz }
+    agent { label 'AutomatedTestComputron' }
 
     stages {
         stage('Build') {
