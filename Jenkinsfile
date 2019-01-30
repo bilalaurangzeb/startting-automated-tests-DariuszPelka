@@ -1,7 +1,7 @@
 #!groovy
 
 pipeline {
-    agent any
+    agent AutomatitTestHostForComputronProjectDariusz
 
     stages {
         stage('Build') {
